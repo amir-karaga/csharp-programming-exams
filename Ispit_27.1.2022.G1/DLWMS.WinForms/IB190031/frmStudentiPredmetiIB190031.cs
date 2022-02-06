@@ -66,13 +66,12 @@ namespace DLWMS.WinForms.IB190031
                     else
                     {
                         MessageBox.Show("Vrijendosti unosa moraju biti brojevi");
-                        txtDo.Text = "";
-                        txtOd.Text = "";
+                       
                     }
+                    txtDo.Text = "";
+                    txtOd.Text = "";
                 }
             });
-            txtDo.Text = "";
-            txtOd.Text = "";
         }
 
         private bool ValidirajUnos()
